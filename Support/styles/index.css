@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('https://storage.needpix.com/rsynced_images/background-4232859_1280.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    height: 370px;
+    margin: 0 10px;
+    width: 450px;
+}
+
+.quote-wrapper .quote-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quote-wrapper .quote-heading h2 {
+    color: #fff;
+    font-family: 'Lobster';
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.quote-wrapper .quote-body {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 220px;
+    opacity: 0.95;
+    padding: 50px 35px;
+    width: 100%;
+}
+
+.quote-wrapper .quote-body .icon-quote {
+    font-size: 18px;
+    height: 42px;
+    overflow: auto;
+    text-align: center;
+}
+
+.quote-wrapper .quote-body .icon-quote .icon {
+    margin-right: 5px;
+}
+
+.quote-wrapper .quote-body .author {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.quote-wrapper .quote-body .quote-buttons {
+    align-items: center;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 7px 0;
+}
+
+.quote-wrapper .quote-body .quote-buttons .social a {
+    color: #223f;
+    font-size: 40px;
+    transition: .3s ease;
+}
+
+.quote-wrapper .quote-body .quote-buttons .social a:hover {
+    color: rgb(157,69,161);
+}
+
+.quote-wrapper .quote-body .quote-buttons .next-quote button {
+    background: rgb(167,5,37);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    outline: none;
+    padding: 10px 40px;
+}
+
+.quote-wrapper .quote-body .quote-buttons .next-quote button:active {
+    background: rgb(228,55,39);
+}
+
+.quote-wrapper .footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.quote-wrapper .footer p {
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(221, 221, 221, 1);
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fcfcfc65;
+}
